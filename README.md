@@ -82,15 +82,15 @@ The firmware calculates the corrected pressure difference as:
 
 Air density is estimated using the ideal-gas relation for dry air:
 
-\[
-\rho = \frac{P_s}{R_{air} T}
-\]
+$$
+\rho = \frac{P_s}{R_{\mathrm{air}} T}
+$$
 
 where `Ps` is static pressure in Pa, `T` is the absolute temperature in kelvin, and `R_air = 287.05 J/(kg·K)`. Estimated airspeed is then:
 
-\[
+$$
 V = \sqrt{\frac{2\Delta P}{\rho}}
-\]
+$$
 
 Small negative pressure differences are treated as zero for the airspeed calculation. Filtering and a zero band reduce noise, but they cannot remove the sensor's underlying measurement uncertainty.
 
