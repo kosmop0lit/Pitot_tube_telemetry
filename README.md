@@ -8,8 +8,6 @@
 
 A prototype Pitot-static air-data system built around an Arduino Nano and two BMP180 pressure/temperature sensors. The repository contains the Arduino firmware, a Windows telemetry dashboard, circuit documentation, and 3D models of the Pitot tube.
 
-> **Status: experimental prototype.** This project has not been certified or validated as an aircraft instrument. Do not use it as the sole source of airspeed data for flight-critical decisions. Validate the hardware, pressure plumbing, calibration, and readings against a trusted reference before any flight testing.
-
 ## Overview
 
 The system reads static pressure and Pitot total pressure using two BMP180 sensors. The Arduino calculates the pressure difference, air density, and estimated airspeed, then streams measurements over USB serial. The desktop dashboard displays live values and plots and records errors reported by the firmware.
@@ -112,6 +110,7 @@ The dashboard is intended to provide:
 - connection/status indicators for the Arduino and each BMP180, based on firmware telemetry;
 - an error log and CSV data export;
 - mouse-based graph zooming (where supported by the packaged dashboard): wheel to zoom, `Ctrl` + wheel for the vertical axis, `Shift` + wheel for the time axis, and double-click to restore automatic scaling.
+  <img width="5120" height="2796" alt="photo_2026-10-09_17-07-50 (1)" src="https://github.com/user-attachments/assets/087897af-c085-4571-a8b7-fe6066c0c717" />
 
 ### Serial data format
 
