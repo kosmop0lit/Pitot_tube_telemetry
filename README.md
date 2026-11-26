@@ -173,8 +173,8 @@ For improved low-speed accuracy, consider a suitable differential pressure senso
 
 ## CAD files
 
-- `Pitot_tube.f3z` — Fusion 360 archive for the editable model, if compatible with your Fusion 360 version.
-- `Pitot_tube_STL.stl` — mesh model suitable for slicing and 3D printing. Check dimensions, wall thickness, sealing, and tube-port alignment before manufacturing.
+- `models(f3z)` — Fusion 360 archive for the editable model, if compatible with your Fusion 360 version.
+- `models(STL)` — mesh model suitable for slicing and 3D printing. Check dimensions, wall thickness, sealing, and tube-port alignment before manufacturing.
 
 
 
