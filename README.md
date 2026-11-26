@@ -176,7 +176,16 @@ For improved low-speed accuracy, consider a suitable differential pressure senso
 - `Pitot_tube.f3z` — Fusion 360 archive for the editable model, if compatible with your Fusion 360 version.
 - `Pitot_tube_STL.stl` — mesh model suitable for slicing and 3D printing. Check dimensions, wall thickness, sealing, and tube-port alignment before manufacturing.
 
-[https://github.com/user-attachments/assets/8bb6560b-1794-4233-8b81-20c15e3506b1](https://github.com/kosmop0lit/Pitot_tube_telemetry/blob/main/media/Pitot_Tube.mp4)
+https://github.com/user-attachments/assets/8bb6560b-1794-4233-8b81-20c15e3506b1
+
+### Build & hardware photos
+
+| | |
+| :---: | :---: |
+| <img src="media/photo_2026-11-26_14-40-35.jpg" width="420" alt="Pitot tube photo 1"> | <img src="media/photo_2026-11-26_14-40-48.jpg" width="420" alt="Pitot tube photo 2"> |
+| <img src="media/photo_2026-11-26_14-40-52.jpg" width="420" alt="Pitot tube photo 3"> | <img src="media/photo_2026-11-26_14-40-58.jpg" width="420" alt="Pitot tube photo 4"> |
+| <img src="media/photo_2026-11-26_14-41-02.jpg" width="420" alt="Pitot tube photo 5"> | <img src="media/photo_2026-11-26_14-41-08.jpg" width="420" alt="Pitot tube photo 6"> |
+| <img src="media/photo_2026-11-26_14-41-13.jpg" width="420" alt="Pitot tube photo 7"> | <img src="media/photo_2026-11-26_14-41-17.jpg" width="420" alt="Pitot tube photo 8"> |
 
 
 
